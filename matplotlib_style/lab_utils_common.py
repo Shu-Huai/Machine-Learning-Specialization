@@ -6,7 +6,7 @@ lab_utils_common.py
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.style.use('./deeplearning.mplstyle')
+plt.style.use('../matplotlib_style/deeplearning.mplstyle')
 dlblue = '#0096ff'; dlorange = '#FF9300'; dldarkred='#C00000'; dlmagenta='#FF40FF'; dlpurple='#7030A0';
 dlcolors = [dlblue, dlorange, dldarkred, dlmagenta, dlpurple]
 dlc = dict(dlblue = '#0096ff', dlorange = '#FF9300', dldarkred='#C00000', dlmagenta='#FF40FF', dlpurple='#7030A0')
@@ -23,7 +23,7 @@ def compute_cost_matrix(X, y, w, b, verbose=False):
      Args:
       X (ndarray (m,n)): Data, m examples with n features
       y (ndarray (m,)) : target values
-      w (ndarray (n,)) : model parameters  
+      w (ndarray (n,)) : model parameters
       b (scalar)       : model parameter
       verbose : (Boolean) If true, print out intermediate value f_wb
     Returns
@@ -48,7 +48,7 @@ def compute_gradient_matrix(X, y, w, b):
     Args:
       X (ndarray (m,n)): Data, m examples with n features
       y (ndarray (m,)) : target values
-      w (ndarray (n,)) : model parameters  
+      w (ndarray (n,)) : model parameters
       b (scalar)       : model parameter
     Returns
       dj_dw (ndarray (n,1)): The gradient of the cost w.r.t. the parameters w.
@@ -71,7 +71,7 @@ def compute_cost(X, y, w, b):
     Args:
       X (ndarray (m,n)): Data, m examples with n features
       y (ndarray (m,)) : target values
-      w (ndarray (n,)) : model parameters  
+      w (ndarray (n,)) : model parameters
       b (scalar)       : model parameter
     Returns
       cost (scalar)    : cost
