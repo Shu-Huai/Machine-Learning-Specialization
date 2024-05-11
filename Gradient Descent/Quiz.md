@@ -25,5 +25,5 @@ $$
 
 对于线性回归，对于变量$b$的更新步骤是什么？
 
-- [ ] b=b-\alpha \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})x^{(i)}
-- [x] b=b-\alpha \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})
+- [ ] $b=b-\alpha \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})x^{(i)}$
+- [x] $b=b-\alpha \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})$
