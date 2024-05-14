@@ -13,7 +13,7 @@ dldarkred = '#C00000'
 dlmagenta = '#FF40FF'
 dlpurple = '#7030A0'
 dlcolors = [dlblue, dlorange, dldarkred, dlmagenta, dlpurple]
-plt.style.use('./deeplearning.mplstyle')
+plt.style.use('deeplearning.mplstyle')
 
 
 def sigmoid(z):

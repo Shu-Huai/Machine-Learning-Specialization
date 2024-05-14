@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.style.use('./deeplearning.mplstyle')
+plt.style.use('deeplearning.mplstyle')
 dlblue = '#0096ff'
 dlorange = '#FF9300'
 dldarkred = '#C00000'
