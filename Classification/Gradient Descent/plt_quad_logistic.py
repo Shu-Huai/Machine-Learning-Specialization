@@ -4,12 +4,13 @@ plt_quad_logistic.py
 """
 
 import time
-from matplotlib import cm
+
 import matplotlib.colors as colors
+from matplotlib import cm
 from matplotlib.gridspec import GridSpec
-from matplotlib.widgets import Button
 from matplotlib.patches import FancyArrowPatch
-from ipywidgets import Output
+from matplotlib.widgets import Button
+
 from lab_utils_common import np, plt, dlc, dlcolors, sigmoid, compute_cost_matrix, gradient_descent
 
 
